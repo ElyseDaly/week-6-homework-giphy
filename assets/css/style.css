@@ -1,1 +1,68 @@
-{}
+body{
+	background: url("../images/background.png");
+	background-size: 100%;
+}
+
+.jumbotron {
+	text-align: center;
+	background: url("../images/feathers.png");
+	color: #618685;
+	border-bottom: 5px solid #80ced6;
+}
+
+h1 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+
+.container {
+	background-color: #fff;
+	color: #618685;
+	margin: 30px;
+}
+
+#addAnimalsRowDiv {
+	padding-left: 20px; 
+}
+
+#buttonsRowDiv {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#gifButtonsDiv {
+	padding-left: 20px;
+	margin: 0px;
+}
+
+.btn {
+    margin: 3px;
+    background-color: #80ced6;
+}
+
+#addAnimal,
+#resetAnimals {
+	background-color: #618685;
+}
+
+.gifDiv{
+    float: left;
+    margin: 3px;
+}
+
+#gifsRowDiv {
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+img { 
+    height: 200px;
+    width: 200px;
+}
+
+h4 {
+	color: #618685; 
+}
